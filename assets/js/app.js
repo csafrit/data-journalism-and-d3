@@ -71,7 +71,7 @@ d3.csv("../../data/data.csv", function(err, healthData) {
             var pov = +data.poverty;
             var physAct = +data.phys_act;
             return (
-                stateName + '<br> Poverty: ' + pov + '% <br> Physical Activity: ' + physAct +'%'
+                stateName + '<br> Poverty: ' + pov + '% <br> Physically Active: ' + physAct +'%'
             );
         });
 
